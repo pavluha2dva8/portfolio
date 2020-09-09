@@ -1,0 +1,31 @@
+// main: ../style.less;
+
+.burger {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	display: none;
+
+	@media @mobile {
+		display: block;
+	}
+}
+
+.burg {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.multi-level, input {
+	display: none;
+}
+
+.nav__burger {
+	list-style: none;
+	margin-bottom: 5px;
+}
+
+#bugr:checked ~ .multi-level {
+	display: block;
+}

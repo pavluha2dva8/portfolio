@@ -1,0 +1,95 @@
+// main: ../style.less;
+
+.about {
+	margin: 8.4rem 0;
+}
+
+.about__inner {
+	display: flex;
+	max-width: 1100px;
+
+	@media @notebook {
+		display: block;
+	}
+}
+
+.about__photo,
+.about__content {
+	width: 50%;
+
+	@media @notebook {
+			width: 100%;
+	}
+}
+
+.about__photo {
+	position: relative;
+
+	.img {
+		position: absolute;
+		bottom: 0;
+		z-index: 2;
+
+		@media @notebook {
+			display: none;
+	}
+	}
+
+	&:before {
+		content: "";
+		width: 415px;
+		height: 415px;
+		background-color: #efefef;
+
+		position: absolute;
+		left: 1rem;
+		bottom: 0;
+		left: 50px;
+		z-index: 1;
+
+		@media @notebook {
+			display: none;
+	}
+	}
+}
+
+.about__content {
+	padding-left: 3.2rem;
+}
+
+.about__title {
+	font-size: 3rem;
+	position: relative;
+	left: 10px;
+
+	color: @black;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	@media @notebook {
+		font-size: 2.5rem;
+	}
+}
+
+.about__bigtitle {
+	margin-bottom: 1.4rem;
+	font-size: 6.1rem;
+	line-height: 1;
+	color: fade(@black, 15%);
+	font-weight: 700;
+	text-transform: uppercase;
+
+	@media @notebook {
+		font-size: 4rem;
+	}
+}
+
+.about__text {
+	padding: 0px 0.5rem;
+	margin-bottom: 2.8rem;
+
+	font-size: 0.9rem;
+	line-height: 2;
+	color: @gray;
+	font-weight: 300;
+}

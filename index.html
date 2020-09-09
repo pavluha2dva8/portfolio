@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/png" href="img/intro.png"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Portfolio">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Pavel Kolomiets">
+	<title>Portfolio</title>
+</head>
+<body>
+
+<!-- Header -->
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+
+				<div class="user">
+					<div class="user__avatar">
+						<img src="img/intro_me.jpg" alt="">
+					</div>
+					<div class="user__content">
+						<div class="user__name">Pavel<br>Kolomiets</div>
+						<div class="user__prof">Front End Developer</div>
+					</div>
+				</div>
+
+				<nav class="nav" id="nav">
+					<a class="nav__link" href="#works">works</a>
+					<a class="nav__link" href="#about">about me</a>
+					<a class="nav__link" href="#resume">resume</a>
+					<a class="nav__link" href="#contact">contact</a>
+					<a class="nav__link nav__link--btn" href="#">hire me</a>
+				</nav>
+
+
+				<div class="burger">
+					<input type="checkbox" id="bugr">
+					<label class="burg" for="bugr">&#9776;</label>
+				
+					<div class="multi-level">
+						<div class="item">
+							<ul>
+								<li class="nav__burger"><a class="nav__link" href="#works">works</a></li>
+								<li class="nav__burger"><a class="nav__link" href="#about">about me</a></li>
+								<li class="nav__burger"><a class="nav__link" href="#resume">resume</a></li>
+								<!-- <li class="nav__burger"><a class="nav__link" href="#">contact</a></li> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+<!-- Intro -->
+<section class="intro">
+	<div class="container">
+		<div class="intro__inner">
+			<div class="intro__content">
+				<h2 class="intro__subtitle">Hello, I'm</h2>
+				<h1 class="intro__title">Pavel Kolomiets</h1>
+				<div class="intro__text">Front End Developer</div>
+
+				<div class="social">
+					<a href="https://www.linkedin.com/in/pavel-kolomiets-684a481b5/" class="social__link" target="_blank"><img src="img/In.png" alt=""></a>
+					<a href="https://www.facebook.com/pavluha.kolomiets" class="social__link" target="_blank"><img src="img/Fb.png" alt=""></a>
+					<a href="https://github.com/pavluha2dva8" class="social__link" target="_blank"><img src="img/github-logo.png" alt=""></a>
+					<a href="https://www.instagram.com/pash.ko/?hl=uk" class="social__link" target="_blank"><img src="img/Instagram.png" alt=""></a>
+					<a href="https://twitter.com/pavluha_bc" class="social__link" target="_blank"><img src="img/Twitter.png" alt=""></a>
+				</div>
+
+				<button class="btn" type="button">hire me</button>
+				<a class="btn" href="#resume">see my resume</a>
+
+			</div>
+			<img class="intro__photo" src="img/me1.png" alt="">
+		</div><!-- /.intro__inner -->
+	</div><!-- /.container -->
+</section>
+
+<!-- Works -->
+<div id="works" class="works">
+	<div class="container">
+
+		<div class="works__nav">
+			<a href="" class="works__nav-link">All</a>
+			<a href="" class="works__nav-link">App</a>
+			<a href="" class="works__nav-link">Websites</a>
+			<a href="" class="works__nav-link">Interaction</a>
+		</div>
+
+		<div class="portfolio">
+			<div class="portfolio__col">
+				<div class="work">
+					<img class="work__image" src="img/works/1.png" alt="">
+					<div class="work__content">
+						<div class="work__cat">html / css</div>
+						<div class="work__title">
+							comics
+							<time class="work__date date" datetime="2020-09-05 22:15">2020</time>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio__col">
+				<div class="work">
+					<img class="work__image" src="img/works/2.png" alt="">
+					<div class="work__content">
+						<div class="work__cat">html / css</div>
+						<div class="work__title">
+							settings menu
+							<time class="work__date date" datetime="2020-09-05 22:15">2020</time>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio__col">
+				<div class="work">
+					<img class="work__image" src="img/works/3.png" alt="">
+					<div class="work__content">
+						<div class="work__cat">html / css</div>
+						<div class="work__title">
+							form
+							<time class="work__date date" datetime="2020-09-05 22:15">2020</time>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio__col">
+				<div class="work">
+					<img class="work__image" src="img/works/4.png" alt="">
+					<div class="work__content">
+						<div class="work__cat">html / css</div>
+						<div class="work__title">
+							design
+							<time class="work__date date" datetime="2020-09-05 22:15">2020</time>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio__col">
+				<div class="work">
+					<img class="work__image" src="img/works/5.png" alt="">
+					<div class="work__content">
+						<div class="work__cat">html / css</div>
+						<div class="work__title">
+							drop-box
+							<time class="work__date date" datetime="2020-09-05 22:15">2020</time>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio__col">
+				<div class="work">
+					<img class="work__image" src="img/works/6.png" alt="">
+					<div class="work__content">
+						<div class="work__cat">html / css</div>
+						<div class="work__title">
+							weather
+							<time class="work__date date" datetime="2020-09-05 22:15">2020</time>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- /.portfolio -->
+		<div class="text-center">
+			<a class="btn btn--sm" href="#">load more work</a>
+		</div>
+
+	</div><!-- /.container -->
+</div><!-- /.works -->
+
+<!-- About -->
+<section id="about" class="about">
+	<div class="container">
+		<div class="about__inner">
+			<div class="about__photo">
+				<img class="img" src="img/me2.png" alt="">
+			</div>
+			<div class="about__content">
+				<h3 class="about__title">about me</h3>
+				<h2 class="about__bigtitle">who am i</h2>
+				<div class="about__text">
+					<p>Accomplished sales supervisor with extensive experience leading teams by example, and with feedback and coaching, seeks to expand career growth in a position as a sales manager. Contributed to new-hire training by helping the training department develop new materials that increased employee satisfaction and productivity by 30%..</p>
+					<p>Friendly and professional customer service specialist with extensive experience resolving escalated customer complaints and issues. Strong interpersonal skills proven through customer satisfaction and peer recognition awards. Creative problem solver who built a new customer retention program that increased customer loyalty by 20%. Seeking a position as a customer service team supervisor to continue career growth into management.</p>
+					<!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa voluptatibus fugit suscipit voluptatum, deleniti accusamus id quibusdam maiores ex eos, architecto mollitia enim blanditiis ab et deserunt officia? Magnam, fuga.</p> -->
+				</div>
+				<button class="btn" type="button">hire me</button>
+				<a class="btn" href="#resume">see my resume</a>
+			</div><!-- /.about__content -->
+		</div><!-- /.about__inner -->
+	</div><!-- /.container -->
+</section>
+
+<!-- Reviews -->
+<div class="reviews">
+	<div class="container">
+
+		<div class="reviews__item">
+			<div class="reviews__text">
+				<p>
+					<img src="img/first.png" width="130px" alt="">
+					<img src="img/second.png" width="130px" alt="">
+					<img src="img/third.png" width="130px" alt="">
+				</p>
+			</div>
+			<div class="reviews__author">
+				<img class="reviews__photo" src='img/logo_ucode.png' alt="">
+				<div class="rewiews__name">Peers</div>
+				<div class="rewiews__company">Ucode</div>
+				<div class="reviews__rating"></div>
+				&#9733; &#9733; &#9733; &#9733; &#9733; <!-- &#9734; -->
+			</div>
+		</div><!-- /.reviews__item -->
+
+	</div><!-- /.container -->
+</div><!-- /.reviews -->
+
+
+	<!-- News -->
+<section class="news">
+	<div class="container">
+
+		
+
+		<div class="modal">
+			<h3 id="resume" class="modal__title">resume</h3>
+			<div class="text-center">
+				<a href="#" class="btn btn--thin">download pdf</a>
+				<a href="#" class="btn btn--thin">print</a>
+			</div>
+
+			<div class="timeline">
+				<div class="timeline__col timeline__col--left">
+					<h4 class="timeline__title">experience</h4>
+
+					<div class="timeline__item">
+						<time class="timeline__date" datetime="11-21-2019">2019 - 2020</time>
+						<h5 class="timeline__subtitle ">VIP House</h5>
+						<div class="timeline__position">Technical Designer</div>
+						<div class="timeline__text">
+							<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Dolorem reiciendis quos, tempore libero, dolorum, doloribus tenetur temporibus itaque consequuntur dignissimos et illum, magni aliquam minima? Ut, dignissimos delectus adipisci quia.</p>
+						</div>
+					</div>
+					<div class="timeline__item">
+						<time class="timeline__date" datetime="11-21-2019">2018 - 2019</time>
+						<h5 class="timeline__subtitle ">Gold Cup</h5>
+						<div class="timeline__position">Club Administator</div>
+						<div class="timeline__text">
+							<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Dolorem reiciendis quos, tempore libero, dolorum, doloribus tenetur temporibus itaque consequuntur dignissimos et illum, magni aliquam minima? Ut, dignissimos delectus adipisci quia.</p>
+						</div>
+					</div>
+					<div class="timeline__item">
+						<time class="timeline__date" datetime="11-21-2019">2017 - 2018</time>
+						<h5 class="timeline__subtitle ">Cosmolot</h5>
+						<div class="timeline__position">Club Administator</div>
+						<div class="timeline__text">
+							<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Dolorem reiciendis quos, tempore libero, dolorum, doloribus tenetur temporibus itaque consequuntur dignissimos et illum, magni aliquam minima? Ut, dignissimos delectus adipisci quia.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="timeline__col timeline__col--right">
+					<h4 class="timeline__title">education</h4>
+
+					<div class="timeline__item">
+						<time class="timeline__date" datetime="11-21-2019">2020 - <b>Present</b></time>
+						<h5 class="timeline__subtitle ">Ucode</h5>
+						<div class="timeline__position">Front End Developer</div>
+					</div>
+					<div class="timeline__item">
+						<time class="timeline__date" datetime="11-21-2019">2015 - 2017</time>
+						<h5 class="timeline__subtitle ">National University of Food Technologies</h5>
+						<div class="timeline__position">Power Machinery</div>
+					</div>
+					<div class="timeline__item">
+						<time class="timeline__date" datetime="11-21-2019">2011 - 2015</time>
+						<h5 class="timeline__subtitle ">Technical and Economic College BNAU</h5>
+						<div class="timeline__position">Energy engineering</div>
+					</div>
+
+					<h4 class="timeline__title">skills</h4>
+
+						<div class="progress-bar">
+							<div class="progress-bar__item">
+								<div class="progress-bar__left">
+									<div class="progress-bar__title">HTML / CSS</div>
+								</div>
+								<div class="progress-bar__right">
+									<div class="progress-bar__bar">
+										<div class="progress-bar__progress" style="width: 60%"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="progress-bar">
+							<div class="progress-bar__item">
+								<div class="progress-bar__left">
+									<div class="progress-bar__title">Java-Script</div>
+								</div>
+								<div class="progress-bar__right">
+									<div class="progress-bar__bar">
+										<div class="progress-bar__progress" style="width: 10%"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="progress-bar">
+							<div class="progress-bar__item">
+								<div class="progress-bar__left">
+									<div class="progress-bar__title">UI/UX Design</div>
+								</div>
+								<div class="progress-bar__right">
+									<div class="progress-bar__bar">
+										<div class="progress-bar__progress" style="width: 40%"></div>
+									</div>
+								</div>
+							</div>
+						</div><!-- /.progress-bar -->
+
+				</div><!-- /.timeline__col timeline__col--right -->
+
+			</div><!-- /.timeline -->
+
+			<div class="text-center">
+				<a class="btn" href="#">hire me</a>
+			</div>
+		</div><!-- /.modal -->
+
+		<div id="contact" class="news">
+			<div class="news__header">
+				<h3 class="news__title">contact</h3>
+				<!-- <div class="news__text">sometime i write something smart</div> -->
+			</div>
+				<div class="news__inner">
+					<h5 class="news__inner-info">Address</h5>
+						<div class="news__inner-value">Kyiv</div>
+					<h5 class="news__inner-info">Phone</h5>
+						<div class="news__inner-value">+380 96 60-44-085</div>
+					<h5 class="news__inner-info">Telegram</h5>
+						<div class="news__inner-value">@pavluha_bc</div>
+					<h5 class="news__inner-info">Email</h5>
+						<div class="news__inner-value">pavluha2dva8@gmail.com</div>
+				</div>
+		</div>
+
+
+	</div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="footer__credits">
+				<div class="footer__copyright">
+					&copy; 2020
+				</div>
+				<div class="footer__social">
+					<a class="footer__social--link" href="https://www.linkedin.com/in/pavel-kolomiets-684a481b5/" target="_blank">
+						<img src="img/logo_footer/linkedin.png" alt="">
+					</a>
+					<a class="footer__social--link" href="https://www.facebook.com/pavluha.kolomiets" target="_blank">
+						<img src="img/logo_footer/facebook.png" alt="">
+					</a>
+					<a class="footer__social--link" href="https://github.com/pavluha2dva8" target="_blank">
+						<img src="img/logo_footer/github.png" alt="">
+					</a>
+					<a class="footer__social--link" href="https://www.instagram.com/pash.ko/?hl=uk" target="_blank">
+						<img src="img/logo_footer/instagram.png" alt="">
+					</a>
+					<a class="footer__social--link" href="https://twitter.com/pavluha_bc" target="_blank">
+						<img src="img/logo_footer/twitter.png" alt="">
+					</a>
+				</div>
+			</div>
+			<nav class="footer__nav">
+				<a href="#works" class="footer__nav-link">Work</a>
+				<a href="#about" class="footer__nav-link">About me</a>
+				<a href="#resume" class="footer__nav-link">Resume</a>
+				<a href="#contact" class="footer__nav-link">Contact</a>
+				<a href="#" class="footer__nav-link footer__nav-link--btn">HIRE ME</a>
+			</nav>
+		</div>
+	</div>
+</footer>
+
+
+</body>
+</html>
